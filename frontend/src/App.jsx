@@ -4,13 +4,13 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import { NavBar } from "./conponents/NavBar";
 import { SideBar } from "./conponents/SideBar";
+import { Login } from "./Login";
 
 function App() {
   return (
     <>
       <div>
-        <NavBar />
-        <SideBar />
+        <Login />
       </div>
     </>
   );
